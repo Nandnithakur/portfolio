@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandni | Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/2d1e74a66f.js" crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-warning fs-3" href="#">Nandni</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center justify-content-center text-center">
+    <div class="container">
+      <img src="C:\Users\nandn\OneDrive\hp\data2\IMG-20240221-WA0022.jpg " alt="Profile" class="profile-img mb-4">
+      <h1 class="display-4 fw-bold">Hello, I'm <span class="highlight">Nandni</span></h1>
+      <h2 class="typing-text"></h2>
+      <p class="lead mt-3">MCA Student | Aspiring SDE | Passionate about Full-Stack & Android Development</p>
+      <div class="d-flex gap-3 justify-content-center mt-4">
+        <a href="C:\Users\nandn\Downloads\Resume.pdf.pdf" download class="btn btn-warning px-4">Download CV</a>
+        <a href="https://github.com/Nandnithakur "class="btn btn-outline-warning px-4">View Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-5 text-center bg-dark text-light">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="mt-3">
+        Motivated MCA student with hands-on experience in web and backend development. Skilled in Python, Java,
+        SQL, Android, and full-stack applications. Seeking an SDE role to apply problem-solving and software
+        development skills in a collaborative environment.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-5 text-center">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="d-flex flex-wrap gap-3 justify-content-center mt-4">
+        <span class="skill-badge">Python</span>
+        <span class="skill-badge">Java</span>
+        <span class="skill-badge">C++</span>
+        <span class="skill-badge">HTML</span>
+        <span class="skill-badge">CSS</span>
+        <span class="skill-badge">JavaScript</span>
+        <span class="skill-badge">Node.js</span>
+        <span class="skill-badge">MongoDB</span>
+        <span class="skill-badge">SQL</span>
+        <span class="skill-badge">Kotlin</span>
+        <span class="skill-badge">Android</span>
+        <span class="skill-badge">GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="row mt-4 g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card p-4 shadow-lg rounded text-center">
+            <i class="fa-solid fa-wallet fa-2x text-warning mb-3"></i>
+            <h4>Expense Manager App</h4>
+            <p>Android app to track expenses using MVVM + Room + SQLite.</p>
+            <a href="https://github.com/Nandnithakur/Personal-Finance-Manager-app-MAD" target="_blank" class="btn btn-sm btn-outline-warning">View Project →</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card p-4 shadow-lg rounded text-center">
+            <i class="fa-solid fa-users-gear fa-2x text-warning mb-3"></i>
+            <h4>Employee Management System</h4>
+            <p>REST APIs with Node.js + MongoDB + JWT authentication.</p>
+            <a href="https://github.com/Nandnithakur/Employee-Managment-app-AIP" target="_blank" class="btn btn-sm btn-outline-warning">View Project →</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card p-4 shadow-lg rounded text-center">
+            <i class="fa-solid fa-file-zipper fa-2x text-warning mb-3"></i>
+            <h4>File Compression Tool</h4>
+            <p>Python tool to compress/zip/unzip files using Huffman coding.</p>
+            <a href="https://github.com/Nandnithakur/File-Compression-and-zip-Unzip-using-Huffman-code-DAA" target="_blank" class="btn btn-sm btn-outline-warning">View Project →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5 text-center">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p><i class="fa-solid fa-phone"></i> <a href="tel:+919737686550">+91 9737686550</a></p>
+      <p><i class="fa-solid fa-envelope"></i> <a href="mailto:nandnithakur817@gmail.com">nandnithakur817@gmail.com</a></p>
+      <p><i class="fa-solid fa-location-dot"></i> Manali, Kullu (HP)</p>
+      <div class="socials mt-3">
+        <a href="https://github.com/Nandnithakur" target="_blank" class="text-warning fs-4 me-3"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/nandnithakur" target="_blank" class="text-warning fs-4"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-light py-3">
+    <p>© 2025 Nandni Thakur | All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

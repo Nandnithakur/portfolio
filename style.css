@@ -1,0 +1,84 @@
+/* Global gradient background */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a, #ff6a00);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section should stand out with transparent overlay */
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: -1;
+}
+
+/* Profile image */
+.profile-img {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid orange;
+  object-fit: cover;
+}
+
+/* Highlight text */
+.highlight {
+  color: orange;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+/* Skills badges */
+.skill-badge {
+  background: orange;
+  color: #111;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-badge:hover {
+  background: #ff944d;
+  transform: scale(1.1);
+}
+
+/* Project cards */
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 165, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 165, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #000, #1a1a1a, #ff6a00);
+  color: #fff;
+}
