@@ -41,12 +41,13 @@ I enjoy solving real-world problems through clean, efficient, and scalable softw
 ## 🚀 Deployment
 This portfolio is hosted on **GitHub Pages**.  
 To view it online:  
-👉 [https://yourusername.github.io/portfolio/](https://yourusername.github.io/portfolio/)  
+👉 https://github.com/Nandnithakur/portfolio/tree/main 
 
 ---
 
 ## 📸 Preview
-![Portfolio Screenshot](assets/preview.png)  
+<img width="1826" height="903" alt="image" src="https://github.com/user-attachments/assets/53fb6c1f-6f54-496e-9f05-4077a5716949" />
+
 
 ---
 
